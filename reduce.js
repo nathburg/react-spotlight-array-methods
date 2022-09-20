@@ -1,4 +1,4 @@
-import { brands, dogs } from "./data";
+import { brands, dogs } from './data';
 
 // INPUT: the array of brands from data.js
 // OUTPUT: an array of all the sneakers brands

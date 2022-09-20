@@ -1,8 +1,7 @@
-import { countries, dogs } from "./data";
 
 
 // INPUT: the array of countries from data.js
-// OUTPUT: only countries in Oceana
+// OUTPUT: only countries in Oceania
 // REQS: use .filter
 
 export const filterOceania = (countries) => {
