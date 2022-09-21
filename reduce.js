@@ -7,7 +7,7 @@ import { brands, dogs } from './data';
 
 export const getSneaks = (brands) => {
   return brands.reduce(
-    (oldBrands, newBrand) => oldBrands.concat([...newBrand.shoes]), []
+    (oldBrands, newBrand) => [...oldBrands, ...newBrand.shoes], []
   );
 };
 
